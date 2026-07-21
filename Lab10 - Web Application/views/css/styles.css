@@ -1,0 +1,24 @@
+h1 {
+    color:blue;
+}
+
+/* styling for article element, used later in the lab */
+/* 1 rem is usually 16px on a browser. rem = root em */
+article {
+    background-color: bisque;
+    border: 1px solid black;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+#statusMessage {
+    color: red;
+}
+
+header {
+    display: flex;
+}
+
+header > * {
+    margin-right: 1rem;
+}
